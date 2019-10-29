@@ -1,4 +1,6 @@
 # nlp-classification-with-BERT
+view the jupyter notebook:
+[bert-tutorial](https://nbviewer.jupyter.org/github/surancy/nlp-classification-with-BERT/blob/master/bert_tutorial.ipynb)
 
 This tutorial introduces how to implement the state-of-art NLP language model, BERT, using the Huggingface Transformer library. This tutorial will walk you through the introduction of BERT, overview of some NLP tasks, specifically GLUE dataset that is used for sentence understanding, followed by the introduction of 🤗Transformer, code examples of training BERT with GLUE dataset built in Tensorflow, and using the pre-trained BERT model to predict some new instances.
 
