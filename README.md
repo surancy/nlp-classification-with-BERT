@@ -2,6 +2,8 @@
 
 This tutorial introduces how to implement the state-of-art NLP language model, BERT, using the Huggingface Transformer library. This tutorial will walk you through the introduction of BERT, overview of some NLP tasks, specifically GLUE dataset that is used for sentence understanding, followed by the introduction of 🤗Transformer, code examples of training BERT with GLUE dataset built in Tensorflow, and using the pre-trained BERT model to predict some new instances.
 
+
+```markdown
 Model performance report for 2 epochs at step size = 115
 
 Train for 115 steps, validate for 7 steps
@@ -25,7 +27,7 @@ Epoch 5/6
 25/25 [==============================] - 384s 15s/step - loss: 0.3969 - accuracy: 0.8147 - val_loss: 0.4756 - val_accuracy: 0.7995
 Epoch 6/6
 25/25 [==============================] - 391s 16s/step - loss: 0.2941 - accuracy: 0.8875 - val_loss: 0.4644 - val_accuracy: 0.7969
-
+```
 ![bertperformance](bertperformance.png)
 
 # Citations
